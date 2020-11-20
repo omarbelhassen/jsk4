@@ -1,26 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
 import React from "react";
-import "bottstrap/dist/css/bootstrap.css";
-import imageInSrc From '/imageInSrc/téléchargement.jpg'
-
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.css";
+import imageInSrc from './imageInSrc.jpg'
 function App() {
   return (
-    <div className="Frist">
+    <div class="first">
       <div>
-      <div style={{border: "solid 1px black",maxWidth : "100vw"}}>
-      <br/>
-      <h1> className="title red">omar belhassen</h1>
-      <img src={imageInsrc} alt='imageInSrc' />
-      <br/>
-      <img src="/imageInPublic/téléchargement.jpg" alt='imageInPublic' />
-      
-      
-      <video controls width={673} height={440}>
-      <source src ="https://www.youtube.com/watch?v=9_F8HzTr07s" type="video/mp4" />
-</video>
-</div>
-</div>
+        <div style={{ border: "solid 1px black", maxWidth: "100vw" }}>
+          <h1 className="title red">HBOUUUUB</h1>
+          <br/>
+          <img src={imageInSrc} alt ='imageInSrc' />
+          <br/>
+          <img src="/imageInPublic.jpg" alt ='imageInPublic' />
+        </div>
+        <video controls width={673.5} height={449.7}>
+          <source src="/rick-and-morty-season-3-episode-8.mp4" type="video/mp4" />
+        </video>
+      </div>
+    </div>
   );
 }
 export default App;
